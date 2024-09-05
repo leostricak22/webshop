@@ -1,7 +1,7 @@
 import { useRef } from "react";
 
 import CartModal from "./CartModal";
-import logo from "../logo.png";
+import logo from "../assets/logo.png";
 
 export default function Header({ cart, onUpdateCartItemQuantity }) {
     const modal = useRef();
